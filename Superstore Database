@@ -38,7 +38,7 @@ ORDER BY price;
 SELECT SUM(price)
 FROM superstore;
 
-#Focusing on the average price for items only in the "Kitchen Supplies" catgory.
+#Focusing on the average price for items only in the "Kitchen Supplies" category.
 SELECT AVG(price) 
 FROM superstore 
 WHERE category = "Kitchen Supplies";
